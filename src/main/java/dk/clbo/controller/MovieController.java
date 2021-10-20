@@ -15,4 +15,9 @@ public class MovieController {
         model.addAttribute("movies", service.getAllMovies());
         return "index";
     }
+
+    @GetMapping("/prr")
+    public String shiesty(){
+        return "index";
+    }
 }
